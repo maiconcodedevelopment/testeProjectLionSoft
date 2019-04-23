@@ -36,6 +36,7 @@ Alura
 # node.js
 #
 app/
+maiin/*
 
 node_modules/
 npm-debug.log
