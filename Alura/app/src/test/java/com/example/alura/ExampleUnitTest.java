@@ -38,6 +38,12 @@ public class ExampleUnitTest {
         boolean teste(int a,int b);
     }
 
+    interface GetValue{
+
+        int valueSetMotify(int value);
+
+    }
+
     public static void filtro(List<String> lista, Predicate<String> condicao){
 //        for(String aa:lista)
 //            if(condicao.test(aa))
@@ -61,6 +67,7 @@ public class ExampleUnitTest {
         public static final int QUARTA = 3;
     }
 
+
     @Test
     public void addition_isCorrect() {
 
@@ -68,6 +75,9 @@ public class ExampleUnitTest {
         showMessage jg = new showMessage().addStateListener((w) -> w % 10 == 0);
         tvalueNumber ff = (cole) -> cole;
 
+        GetValue value = (s) ->  s + 3;
+
+        System.out.println(value.valueSetMotify(2));
 
         System.out.println("sim");
 

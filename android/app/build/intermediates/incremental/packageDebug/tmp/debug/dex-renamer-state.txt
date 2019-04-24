@@ -1,0 +1,4 @@
+#Tue Apr 23 17:49:53 BRT 2019
+base.0=C\:\\Users\\codelionsoft\\Documents\\tutooApplication\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
